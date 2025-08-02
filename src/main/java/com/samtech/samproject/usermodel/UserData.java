@@ -33,4 +33,7 @@ public class UserData {
     @Column(name = "contact")
     Long   userContact;
 
+    @Column(name= "gender")
+    String gender;
+
 }
